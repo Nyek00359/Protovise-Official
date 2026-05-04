@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 84" fill="none">
+  <g filter="url(#shadow)">
+    <g>
+      <polygon points="28,20 42,12 56,20 42,28" fill="#e6a96f" stroke="#231f1b" stroke-width="2.2" stroke-linejoin="round"/>
+      <polygon points="28,20 28,36 42,44 42,28" fill="#c96f3b" stroke="#231f1b" stroke-width="2.2" stroke-linejoin="round"/>
+      <polygon points="56,20 56,36 42,44 42,28" fill="#245a4d" stroke="#231f1b" stroke-width="2.2" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <polygon points="20,34 34,26 48,34 34,42" fill="#e6a96f" stroke="#231f1b" stroke-width="2.2" stroke-linejoin="round"/>
+      <polygon points="20,34 20,50 34,58 34,42" fill="#c96f3b" stroke="#231f1b" stroke-width="2.2" stroke-linejoin="round"/>
+      <polygon points="48,34 48,50 34,58 34,42" fill="#245a4d" stroke="#231f1b" stroke-width="2.2" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <polygon points="36,38 50,30 64,38 50,46" fill="#e6a96f" stroke="#231f1b" stroke-width="2.2" stroke-linejoin="round"/>
+      <polygon points="36,38 36,54 50,62 50,46" fill="#c96f3b" stroke="#231f1b" stroke-width="2.2" stroke-linejoin="round"/>
+      <polygon points="64,38 64,54 50,62 50,46" fill="#245a4d" stroke="#231f1b" stroke-width="2.2" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <defs>
+    <filter id="shadow" x="12" y="10" width="56" height="56" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="3"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix values="0 0 0 0 0.137255 0 0 0 0 0.121569 0 0 0 0 0.105882 0 0 0 0.24 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+</svg>

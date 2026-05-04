@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nyek00359.github.io/Web-Craft/sitemap.xml
